@@ -11,7 +11,7 @@ def main(s):
             if s[i]+s[j]+s[k] < target:
                 j += 1
                 while s[j] == s[j-1] and j < k:
-                    j == 1
+                    j += 1
             elif s[i]+s[j]+s[k] > target:
                 k -= 1
                 while s[k] == s[k+1] and j < k:
